@@ -22,8 +22,23 @@
 }
         </style>
     </head>
-    <body>
-        <h1>5th Red</h1>
+    <body onload="loading()">
+        <div id="site" style="display:none">
+            <h1>5th Red</h1>
+        </div>
+        <div id="loading">
+            <img src="./5th_Red_Logo-2.svg">
+        </div>
+        <script>
+            function loading(){
+                document.getElementById("loading").style.display = "block"
+                setTimeout(function(){
+                    document.getElementById("loading").style.display = "none"
+                    document.getElementById("site").style.display = "block"
+                },3000)
+                    
+            }
+        </script>
         <script src="script.js"></script>
         <script src="space.js"></script>
         <script src="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Script@1.4.0/script.js" type="module"></script>
