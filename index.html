@@ -15,12 +15,11 @@
         <div id="site" style="display:none">
             <h1>5th Red</h1>
         </div>
-        <div id="loading" style="width:100%;background-color:#222222;">
-            <img src="./5th_Red_Logo-2-2.svg" style="display:block;width:40%;margin:auto;">
-        </div>
+        <div id="loading" style="width:100%;background-color:#222222;"></div>
         <script>
             function loading(){
                 document.getElementById("loading").style.display = "block"
+                document.getElementById("loading").innerHTML = `<img src="./5th_Red_Logo-2-2.svg" style="display:block;width:40%;margin:auto;">`;
                 setTimeout(function(){
                     document.getElementById("loading").style.display = "none";
                     document.getElementsByTagName("body")[0].style.backgroundColor = "white";
