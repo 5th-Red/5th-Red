@@ -21,7 +21,7 @@
 }
         </style>
     </head>
-    <body onload="loading()">
+    <body onload="loading()" style="background-color:deepslate;">
         <div id="site" style="display:none">
             <h1>5th Red</h1>
         </div>
@@ -33,6 +33,7 @@
                 document.getElementById("loading").style.display = "block"
                 setTimeout(function(){
                     document.getElementById("loading").style.display = "none"
+                    document.getElementsByTagName("body").style.backgroundColor = "white";
                     document.getElementById("site").style.display = "block"
                 },3000)
                     
