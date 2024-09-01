@@ -12,7 +12,7 @@
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <div id="site" style="display:none">
+        <div id="site">
             <div id="tab">
                 <span id="logo"></span>
                 <div id="links">
@@ -62,7 +62,7 @@
         <a href="https://twitter.com/5thRedOfficial">5th Red</a>
         <a href="https://twitter.com/redcodeinc">Red Code</a>
         </div>
-        <div id="loading">
+        <div id="loading" style="display:none;">
             <div class="bar" id="top"></div>
             <div class="cube" id="left"></div>
             <div class="cube" id="middle"></div>
@@ -71,8 +71,10 @@
         </div>
         <script>
             if (!sessionStorage.getItem("loading")){
-                loading()
-                sessionStorage.setItem("loading",true)
+                document.getElementById("site").style.display = "none";
+                document.getElementById("loading").style.display = "block";
+                loading();
+                sessionStorage.setItem("loading",true);
             }
             function loading(){
                 document.getElementById("loading").style.display = "block"
