@@ -21,7 +21,7 @@ body{
     }
     #left{
         left:0;
-      transform:rotate(180deg);
+/*       transform:rotate(180deg); */
       animation:leftSize 0.125s linear 2.35s forwards;
     }
     #middle{
@@ -64,11 +64,11 @@ body{
     @keyframes leftSize{
         from{
             height:50px;
-/*             top:2.15in; */
+            top:2.15in;
         }
         to{
             height:1.73in;
-/*             top:1.28in; */
+            top:1.28in;
         }
     }
     @keyframes rightSize{
