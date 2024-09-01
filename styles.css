@@ -44,7 +44,7 @@ h1{
   padding:5px;
   padding:10px;
 }
-body{
+body.fade{
         /*background-color:#222222;*/
         animation:fadeIn 1s linear forwards;
     }
