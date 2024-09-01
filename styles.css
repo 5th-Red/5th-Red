@@ -5,6 +5,9 @@ body{
   content:url("./5th_Red_Logo-2.png");
   width:45px;
 }
+h1{
+  font-size:70px;
+}
 .bar{
         display:block;
         background-color:#c00000;
