@@ -15,6 +15,7 @@ h1{
 #sitelinks td a{
   text-decoration:none;
   color:red;
+  font-family:Red-Icons;
 }
 #tab{
   background-color:#550000;
