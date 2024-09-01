@@ -22,6 +22,7 @@ h1{
   text-decoration:none;
   font-size:21px;
   padding:5px;
+  vertical-align:super;
 }
 .bar{
         display:block;
