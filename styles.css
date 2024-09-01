@@ -9,6 +9,9 @@ body{
 h1{
   font-size:55px;
 }
+#sitelinks{
+  border-collapse:collapse;
+}
 #sitelinks td,#sitelinks th{
   padding:5px;
   border:1px solid black;
