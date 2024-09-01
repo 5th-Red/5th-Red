@@ -4,7 +4,7 @@ body{
 #logo{
   content:url("./5th_Red_Logo-2.png");
   width:30px;
-  text-align:sub;
+  line-height:30px;
 }
 h1{
   font-size:55px;
@@ -24,7 +24,7 @@ h1{
   font-size:20px;
   padding:5px;
   height:20px;
-  line-height:30px;
+  line-height:20px;
 }
 .bar{
         display:block;
