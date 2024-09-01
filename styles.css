@@ -1,3 +1,81 @@
 body{
   font-family:Arial;
 }
+.bar{
+        display:block;
+        background-color:#c00000;
+        width:3.22in;
+        height:0.86in;
+        position:absolute;
+        left:0;
+    }
+    /*3.53 inches*/
+    .cube{
+        display:inline-block;
+        background-color:red;
+        width:0.86in;
+        height:0.86in;
+        position:absolute;
+        top:2.15in;
+        z-index:-1;
+    }
+    #left{
+        left:0;
+        animation:leftSize 0.125s linear 2.35s forwards;
+    }
+    #middle{
+        left:1.18in;
+    }
+    #right{
+        left:2.36in;
+        animation:rightSize 0.125s linear 2.35s forwards;
+    }
+    #top{
+        top:1.72in;
+        animation:topBar 0.125s linear 2s forwards;
+    }
+    #bottom{
+        top:2.57in;
+        animation:bottomBar 0.125s linear 2s forwards;
+    }
+    #loading{
+        display:block;
+        position:absolute;
+        top:15%;
+        left:40%;
+    }
+    @keyframes topBar{
+        from{
+            top:1.72in;
+        }
+        to{
+            top:0;
+        }
+    }
+    @keyframes bottomBar{
+        from{
+            top:250px;
+        }
+        to{
+            top:4.39in;
+        }
+    }
+    @keyframes leftSize{
+        from{
+            height:50px;
+            top:2.15in;
+        }
+        to{
+            height:1.73in;
+            top:1.28in;
+        }
+    }
+    @keyframes rightSize{
+        from{
+            height:0.86in;
+        }
+        to{
+            height:1.73in;
+            /*top:125px;*/
+        }
+    }
