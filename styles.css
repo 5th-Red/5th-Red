@@ -4,13 +4,13 @@ body{
 #logo{
   content:url("./5th_Red_Logo-2.png");
   width:25px;
-  text-align:text-bottom;
+  text-align:sub;
 }
 h1{
   font-size:55px;
 }
 #tab{
-  background-color:#700000;
+  background-color:#500000;
   padding:5px;
   position:fixed;
   width:100%;
