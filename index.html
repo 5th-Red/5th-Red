@@ -73,6 +73,7 @@
             if (!sessionStorage.getItem("loading")){
                 document.getElementById("site").style.display = "none";
                 document.getElementById("loading").style.display = "block";
+                document.getElementsByTagName("body")[0].className = "fade"
                 loading();
                 sessionStorage.setItem("loading",true);
             }
@@ -83,6 +84,7 @@
                     document.getElementById("loading").style.display = "none";
                     document.getElementsByTagName("body")[0].style.backgroundColor = "white";
                     document.getElementById("site").style.display = "block";
+                    document.getElementsByTagName("body")[0].className = ""
                 },5000)
                     
             }
