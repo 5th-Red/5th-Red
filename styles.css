@@ -17,6 +17,12 @@ h1{
   top:0;
   left:0;
 }
+#tab a{
+  color:white;
+  text-decoration:none;
+  font-size:21px;
+  padding:5px;
+}
 .bar{
         display:block;
         background-color:#c00000;
