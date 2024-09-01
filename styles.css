@@ -9,6 +9,13 @@ body{
 h1{
   font-size:55px;
 }
+#sitelinks td,#sitelinks th{
+  padding:5px;
+}
+#sitelinks td a{
+  text-decoration:none;
+  color:red;
+}
 #tab{
   background-color:#550000;
   padding:10px;
