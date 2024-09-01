@@ -44,7 +44,11 @@ h1{
   padding:5px;
   padding:10px;
 }
-.bar{
+body{
+        /*background-color:#222222;*/
+        animation:fadeIn 1s linear forwards;
+    }
+    .bar{
         display:block;
         background-color:#c00000;
         width:3.22in;
@@ -64,15 +68,14 @@ h1{
     }
     #left{
         left:0;
-/*       transform:rotate(180deg); */
-      animation:leftSize 0.125s linear 2.35s forwards;
+        animation:leftSize 0.125s linear 2.75s forwards;
     }
     #middle{
         left:1.18in;
     }
     #right{
         left:2.36in;
-        animation:rightSize 0.125s linear 2.35s forwards;
+        animation:rightSize 0.125s linear 2.75s forwards;
     }
     #top{
         top:1.72in;
@@ -106,8 +109,8 @@ h1{
     }
     @keyframes leftSize{
         from{
-            height:50px;
-            top:2.15in;
+            height:0.86in;
+            /*top:2.15in;*/
         }
         to{
             height:1.73in;
@@ -120,6 +123,14 @@ h1{
         }
         to{
             height:1.73in;
-            /*top:125px;*/
+            /*top:1.28in;*/
+        }
+    }
+    @keyframes fadeIn{
+        from{
+            opacity:0;
+        }
+        to{
+            opacity:1;
         }
     }
