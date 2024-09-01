@@ -21,7 +21,7 @@ body{
     }
     #left{
         left:0;
-      transform:rotate(90deg);
+      transform:rotate(180deg);
       animation:leftSize 0.125s linear 2.35s forwards;
     }
     #middle{
