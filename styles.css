@@ -8,6 +8,13 @@ body{
 h1{
   font-size:55px;
 }
+#tab{
+  background-color:darkred;
+  padding:5px;
+  position:fixed;
+  top:0;
+  left:0;
+}
 .bar{
         display:block;
         background-color:#c00000;
