@@ -12,6 +12,10 @@ h1{
 #sitelinks{
   border-collapse:collapse;
 }
+#sitelinks tr{
+  border:1px solid red;
+  border-radius:20px;
+}
 #sitelinks td,#sitelinks th{
   padding:10px;
 /*   border:1px solid black; */
