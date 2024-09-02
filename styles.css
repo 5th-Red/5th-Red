@@ -13,9 +13,7 @@ h1{
   border-collapse:collapse;
 }
 #sitelinks td,#sitelinks th{
-  padding:5px 10px;
-  border-left:1px solid black;
-  border-bottom:1px solid black;
+  padding:1em;
   font-size:18px;
 }
 #sitelinks td a{
