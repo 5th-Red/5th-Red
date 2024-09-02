@@ -19,9 +19,6 @@ h1{
 #sitelinks tr:hover{
   background-color:lightgray;
 }
-#sitelinks th{
-  border-right:1px solid red;
-}
 #sitelinks td,#sitelinks th{
   padding:10px;
 /*   border:1px solid black; */
