@@ -14,7 +14,8 @@ h1{
 }
 #sitelinks td,#sitelinks th{
   padding:5px 10px;
-  border:1px solid black;
+  border-left:1px solid black;
+  border-bottom:1px solid black;
   font-size:18px;
 }
 #sitelinks td a{
