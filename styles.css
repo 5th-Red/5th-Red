@@ -10,7 +10,7 @@ h1{
   font-size:55px;
 }
 #sitelinks{
-  border-collapse:collapse;
+/*   border-collapse:collapse; */
 }
 #sitelinks tr{
   border:1px solid red;
