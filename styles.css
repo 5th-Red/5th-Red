@@ -20,7 +20,7 @@ h1{
   background-color:lightgray;
 }
 #sitelinks th{
-  border-left:1px solid red;
+  border-right:1px solid red;
 }
 #sitelinks td,#sitelinks th{
   padding:10px;
