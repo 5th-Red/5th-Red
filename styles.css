@@ -27,6 +27,7 @@ h1{
 #sitelinks td a{
   text-decoration:none;
   color:red;
+  font-size:25px;
   font-family:Red-Icons;
 }
 #tab{
