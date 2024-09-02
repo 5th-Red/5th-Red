@@ -16,6 +16,9 @@ h1{
   border:1px solid red;
   border-radius:20%;
 }
+#sitelinks tr:hover{
+  background-color:lightgray;
+}
 #sitelinks td,#sitelinks th{
   padding:10px;
 /*   border:1px solid black; */
