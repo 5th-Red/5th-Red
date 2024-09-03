@@ -11,9 +11,9 @@
   :root{
     --loading-top:5%;
     --loading-left:37%;
-    --bar-width:2.1467in;
-    --bar-height:0.573in;
-    --cube-max-height:0.853in;
+    --bar-width:2.898in;
+    --bar-height:0.774in;
+    --cube-max-height:1.152in;
   }
 }
 @media screen and (min-width:1400px){
