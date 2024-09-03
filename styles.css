@@ -94,10 +94,11 @@ body.fade{
         animation:bottomBar 0.125s linear 2s forwards;
     }
     #loading{
-        display:block;
+        display:flex;
 /*         position:absolute; */
 /*         top:12%; */
-        margin:0 auto;
+        justify-content:center;
+      align-items:center;
     }
     @keyframes topBar{
         from{
