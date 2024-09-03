@@ -1,7 +1,5 @@
 @media screen and (max-width:800px){
   :root{
-    --loading-top:5%;
-    --loading-left:30%;
     --bar-width:1.073in;
     --bar-height:0.2867in;
     --cube-max-height:0.4267in;
@@ -11,8 +9,6 @@
 }
 @media screen and (min-width:801px){
   :root{
-    --loading-top:15%;
-    --loading-left:40%;
     --bar-width:2.576in;
     --bar-height:0.688in;
     --left-max-height-top:1.024in;
@@ -26,8 +22,6 @@
 }
 @media screen and (min-width:1400px){
   :root{
-    --loading-top:15%;
-    --loading-left:45%;
     --bar-width:3.22in;
     --bar-height:0.86in;
     --cube-max-height:1.73in;
@@ -136,8 +130,8 @@ body.fade{
     }
     #loading{
         position:absolute;
-        top:var(--loading-top);
-        left:var(--loading-left);
+        top:15%;
+        left:40%;
     }
     @keyframes topBar{
         from{
