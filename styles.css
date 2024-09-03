@@ -1,13 +1,28 @@
-@media screen and (min-width:800px){
+@media screen and (max-width:800px){
+  :root{
+    --loading-top:5%;
+    --loading-left:30%;
+    --bar-width:1.073in;
+    --bar-height:0.2867in;
+    --cube-max-height:0.4267in;
+  }
+}
+@media screen and (min-width:801px){
   :root{
     --loading-top:5%;
     --loading-left:37%;
+    --bar-width:1.073in;
+    --bar-height:0.2867in;
+    --cube-max-height:0.4267in;
   }
 }
 @media screen and (min-width:1400px){
   :root{
     --loading-top:15%;
     --loading-left:45%;
+    --bar-width:3.22in;
+    --bar-height:0.86in;
+    --cube-max-height:1.28in;
   }
 }
 body{
@@ -71,8 +86,8 @@ body.fade{
     .bar{
         display:block;
         background-color:#c00000;
-        width:3.22in;
-        height:0.86in;
+        width:var(--bar-width);
+        height:var(--bar-height);
         position:absolute;
         left:0;
     }
@@ -80,8 +95,8 @@ body.fade{
     .cube{
         display:inline-block;
         background-color:red;
-        width:0.86in;
-        height:0.86in;
+        width:var(--bar-height);
+        height:var(--bar-height);
         position:absolute;
         top:2.15in;
         z-index:-1;
