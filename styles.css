@@ -20,6 +20,8 @@
     --cube-top:1.935in;
     --bottom-height:2.313in;
     --bottom-top:3.951in;
+    --middle-left:1.062in;
+    --right-left:2.124in;
   }
 }
 @media screen and (min-width:1400px){
@@ -33,6 +35,8 @@
     --cube-top:2.15in;
     --bottom-height:2.57in;
     --bottom-top:4.39in;
+    --middle-left:1.18in;
+    --right-left:2.36in;
   }
 }
 body{
@@ -116,10 +120,10 @@ body.fade{
         animation:leftSize 0.125s linear 2.75s forwards;
     }
     #middle{
-        left:1.18in;
+        left:var(--middle-left);
     }
     #right{
-        left:2.36in;
+        left:var(--right-left);
         animation:rightSize 0.125s linear 2.75s forwards;
     }
     #top{
