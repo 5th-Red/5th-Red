@@ -1,7 +1,13 @@
-@media screen and (max-width:800px){
+@media screen and (max-width:1000px){
   :root{
     --loading-top:10%;
     --loading-left:35%;
+  }
+}
+@media screen and (min-width:1400px){
+  :root{
+    --loading-top:15%;
+    --loading-left:45%;
   }
 }
 body{
