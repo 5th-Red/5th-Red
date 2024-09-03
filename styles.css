@@ -18,6 +18,7 @@
     --bottom-top:3.512in;
     --middle-left:0.944in;
     --right-left:1.888in;
+    --top-height:1.376in;
   }
 }
 @media screen and (min-width:1400px){
@@ -31,6 +32,7 @@
     --bottom-top:4.39in;
     --middle-left:1.18in;
     --right-left:2.36in;
+    --top-height:1.72in;
   }
 }
 body{
@@ -121,7 +123,7 @@ body.fade{
         animation:rightSize 0.125s linear 2.75s forwards;
     }
     #top{
-        top:1.72in;
+        top:var(--top-height);
         animation:topBar 0.125s linear 2s forwards;
     }
     #bottom{
@@ -135,7 +137,7 @@ body.fade{
     }
     @keyframes topBar{
         from{
-            top:1.72in;
+            top:var(--top-height);
         }
         to{
             top:0;
@@ -143,7 +145,7 @@ body.fade{
     }
     @keyframes bottomBar{
         from{
-            top:250px;
+            top:var(--bottom-height);
         }
         to{
             top:var(--bottom-top);
