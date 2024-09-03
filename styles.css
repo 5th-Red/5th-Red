@@ -12,7 +12,7 @@
 @media screen and (min-width:801px){
   :root{
     --loading-top:15%;
-    --loading-left:45%;
+    --loading-left:40%;
     --bar-width:2.576in;
     --bar-height:0.688in;
     --left-max-height-top:1.024in;
