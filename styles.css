@@ -11,8 +11,8 @@
 }
 @media screen and (min-width:801px){
   :root{
-    --loading-top:5%;
-    --loading-left:37%;
+    --loading-top:15%;
+    --loading-left:45%;
     --bar-width:2.576in;
     --bar-height:0.688in;
     --left-max-height-top:1.024in;
