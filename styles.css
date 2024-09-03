@@ -19,6 +19,7 @@
     --cube-max-height:1.557in;
     --cube-top:1.935in;
     --bottom-height:2.313in;
+    --bottom-top:3.951in;
   }
 }
 @media screen and (min-width:1400px){
@@ -31,6 +32,7 @@
     --left-max-height-top:1.28in;
     --cube-top:2.15in;
     --bottom-height:2.57in;
+    --bottom-top:4.39in;
   }
 }
 body{
@@ -146,7 +148,7 @@ body.fade{
             top:250px;
         }
         to{
-            top:4.39in;
+            top:var(--bottom-top);
         }
     }
     @keyframes leftSize{
