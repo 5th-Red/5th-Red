@@ -96,7 +96,7 @@ body.fade{
     #loading{
         display:block;
         position:absolute;
-        top:15%;
+        top:12%;
         left:40%;
     }
     @keyframes topBar{
