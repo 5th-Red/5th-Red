@@ -5,8 +5,8 @@
     --bar-width:1.073in;
     --bar-height:0.2867in;
     --cube-max-height:0.4267in;
-    --cube-top:;
-    --bottom-height:;
+    --cube-top:1.075in;
+    --bottom-height:1.285in;
   }
 }
 @media screen and (min-width:801px){
