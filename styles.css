@@ -13,15 +13,15 @@
   :root{
     --loading-top:5%;
     --loading-left:37%;
-    --bar-width:2.898in;
-    --bar-height:0.774in;
-    --left-max-height-top:1.152in;
-    --cube-max-height:1.557in;
-    --cube-top:1.935in;
-    --bottom-height:2.313in;
-    --bottom-top:3.951in;
-    --middle-left:1.062in;
-    --right-left:2.124in;
+    --bar-width:2.576in;
+    --bar-height:0.688in;
+    --left-max-height-top:1.024in;
+    --cube-max-height:1.384in;
+    --cube-top:1.72in;
+    --bottom-height:2.056in;
+    --bottom-top:3.712in;
+    --middle-left:0.944in;
+    --right-left:1.888in;
   }
 }
 @media screen and (min-width:1400px){
