@@ -97,7 +97,7 @@ body.fade{
         display:block;
 /*         position:absolute; */
 /*         top:12%; */
-        margin:auto;
+        margin:0 auto;
     }
     @keyframes topBar{
         from{
