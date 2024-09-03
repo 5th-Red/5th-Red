@@ -1,7 +1,7 @@
 @media screen and (min-width:800px){
   :root{
-    --loading-top:10%;
-    --loading-left:35%;
+    --loading-top:5%;
+    --loading-left:30%;
   }
 }
 @media screen and (min-width:1400px){
