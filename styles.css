@@ -15,7 +15,8 @@
     --loading-left:37%;
     --bar-width:2.898in;
     --bar-height:0.774in;
-    --cube-max-height:1.152in;
+    --left-max-height-top:1.152in;
+    --cube-max-height:1.557in;
     --cube-top:1.935in;
     --bottom-height:2.313in;
   }
@@ -26,7 +27,8 @@
     --loading-left:45%;
     --bar-width:3.22in;
     --bar-height:0.86in;
-    --cube-max-height:1.28in;
+    --cube-max-height:1.73in;
+    --left-max-height-top:1.28in;
     --cube-top:2.15in;
     --bottom-height:2.57in;
   }
@@ -154,7 +156,7 @@ body.fade{
         }
         to{
             height:var(--cube-max-height);
-            top:1.28in;
+            top:var(--left-max-height-top);
         }
     }
     @keyframes rightSize{
