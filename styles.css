@@ -149,20 +149,20 @@ body.fade{
     }
     @keyframes leftSize{
         from{
-            height:0.86in;
+            height:var(--bar-height);
             /*top:2.15in;*/
         }
         to{
-            height:1.73in;
+            height:var(--cube-max-height);
             top:1.28in;
         }
     }
     @keyframes rightSize{
         from{
-            height:0.86in;
+            height:var(--bar-height);
         }
         to{
-            height:1.73in;
+            height:var(--cube-max-height);
             /*top:1.28in;*/
         }
     }
