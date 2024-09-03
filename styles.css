@@ -1,3 +1,9 @@
+@media screen and (max-width:800px){
+  :root{
+    --loading-top:10%;
+    --loading-left:35%;
+  }
+}
 body{
   font-family:Arial;
 }
@@ -98,11 +104,9 @@ body.fade{
       height:100%;
     }
     #loading-center{
-        display:flex;
-/*         position:absolute; */
-/*         top:12%; */
-        justify-content:center;
-      align-items:center;
+        position:absolute;
+        top:var(--loading-top);
+        left:var(--loading-left);
     }
     @keyframes topBar{
         from{
